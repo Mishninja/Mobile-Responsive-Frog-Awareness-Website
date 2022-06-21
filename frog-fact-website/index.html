@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/jquery.gridder.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Mobile Web | Final Project</title>
+</head>
+<body>
+    <header>
+        <div class="logo-wrap">
+            <a class="logo-link" href="index.html" title="Home Page">
+                <img src="images/logo.png" alt="Company Logo">
+            </a>
+        </div>
+        <button class="gn-trigger">
+            <div class="burger"></div>
+        </button>
+        <nav class="gn">
+            <ul class="gn-items">
+                <li>
+                    <a href="#why" title="Why we save frogs">Why</a>
+                </li>
+                <li>
+                    <a href="#qa" title="We answer your frog FAQs">Frog Q&A</a>
+                </li>
+                <li>
+                    <a href="#climate-change" title="Frogs and climate change">Climate Change and Frogs</a>
+                </li>
+                <li>
+                    <a href="#gallery" title="A frog gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href="#endg-specs" title="Notable endangered species">Endangered Species</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="bnr">
+            <div class="bnr-img bg-center col"></div>
+            <video autoplay muted loop class="vid">
+                <source src="videos/frawg.mp4" type="video/mp4">
+            </video>
+            <div class="bnr-content col">
+                <h1>The Frog Charity</h1>
+                <p>Help us save the tree frogs.</p>
+                <div class="bnr-cta">
+                    <!-- <a class="donate btn" href="#">Donate Now</a> -->
+                    <a class="learn-more btn" href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <section id="why" class="fill mission">
+            <h2>Why Save The Frogs?</h2>
+            <p>As urbanization and deforestation expands in the Amazon Rainforest. One animal that has suffered significantly is frogs.  They range from the size of your thumbprint to large rocks. Their biodiversity is rapidly declining in the Amazon Rainforest as a result of habitat loss and they need your help.</p>
+            <img class="divider" src="images/logo.png" alt="Company Logo">
+        </section>
+        <section id="qa" class="frog-qa">
+            <h2>Tree Frog Q&As</h2>
+            <p class="sec-description">We try and answer some of your frog related FAQs.</p>
+            <button class="accordion">How many species of tree frog live in the Amazon?</button>
+            <div class="panel">
+                <p>427 species of tree frog species live in the Amazon.</p>
+            </div>
+            <button class="accordion">What percentage of tree frogs are at risk of extinction?</button>
+            <div class="panel">
+                <p>30% of tree frogs are at risk of extinction.</p>
+            </div>
+            <button class="accordion">What are the main causes of tree frog extinction?</button>
+            <div class="panel">
+                <p>Habitat loss, habitat fragmentation, pollution, and extreme weather are all thought to be major factors in the decline
+                of tree frog species.</p>
+                </div>
+            <button class="accordion">When did tree frog populations begin to decline?</button>
+            <div class="panel">
+                <p>Amphibian populations have been declining since the 1980s.</p>
+            </div>
+        </section>
+        <section id="climate-change" class="fill climate-change">
+            <h2>Tree Frogs and Climate Change</h2>
+            <p>Tree frogs are found on every continent except Antarctica, but they’re most diverse in the tropics of the western hemisphere. Amphibians are declining worldwide and are collectively one of the most at-risk groups for extinction. They breathe through their skin, which makes them especially sensitive to environmental change. This means that tree frogs are important indicators to environmental changes and are very valuable in environmental studies.  We should help the little guys, as they help us.</p>
+            <img class="divider" src="images/logo.png" alt="Company Logo">
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Frog Gallery</h2>
+            <p class="sec-description">Look at all the marvelous tree frogs!</p>
+            <ul class="filters">
+                <li data-filter = "*">All</li>
+                <li data-filter = ".Endangered">Endangered</li>
+                <li data-filter = ".Protected">Protected</li>
+                <li data-filter=".Threatened">Threatened</li>
+                <li data-filter = ".Stable">Stable</li>
+            </ul>
+                <!-- <div class="container-fluid"> -->
+                    <!-- <div class="row"> -->
+                        <div class="grid">
+                            <div class="grid-item Endangered">
+                                <img src="images/01.jpg" alt="">
+                            </div>
+                            <div class="grid-item Threatened">
+                                <img src="images/02.jpg" alt="">
+                            </div>
+                            <div class="grid-item Threatened">
+                                <img src="images/03.jpg" alt="">
+                            </div>
+                            <div class="grid-item Stable">
+                                <img src="images/04.jpg" alt="">
+                            </div>
+                            <div class="grid-item Threatened">
+                                <img src="images/05.jpg" alt="">
+                            </div>
+                            <div class="grid-item Stable">
+                                <img src="images/06.jpg" alt="">
+                            </div>
+                            <div class="grid-item Protected">
+                                <img src="images/07.jpg" alt="">
+                            </div>
+                            <div class="grid-item Endangered">
+                                <img src="images/08.jpg" alt="">
+                            </div>
+                            <div class="grid-item Endangered">
+                                <img src="images/09.jpg" alt="">
+                            </div>
+                            <div class="grid-item Protected">
+                                <img src="images/10.jpg" alt="">
+                            </div>
+                            <div class="grid-item Stable">
+                                <img src="images/11.jpg" alt="">
+                            </div>
+                            <div class="grid-item Endangered">
+                                <img src="images/12.jpg" alt="">
+                            </div>
+                            <div class="grid-item Endangered">
+                                <img src="images/13.jpg" alt="">
+                            </div>
+                            <div class="grid-item Protected">
+                                <img src="images/14.jpg" alt="">
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                <!-- </div> -->
+            
+        </section>
+        <section id="endg-specs" class="endg-species">
+            <h2>Endangered Species</h2>
+            <p class="sec-description">Dive in for a closer look at a few notable endangered species.</p>
+            <ul class="gridder">
+                <li class="gridder-list" data-griddercontent="#content1">
+                    <div class="content-overlay"></div>
+                    <img src="images/endg-01.jpg"/>
+                    <div class="content-title">
+                        <h3>Lemur Leaf Frog</h3>
+                    </div>
+                </li>
+                <li class="gridder-list" data-griddercontent="#content2">
+                    <div class="content-overlay"></div>
+                    <img src="images/endg-02.jpg"/>
+                    <div class="content-title">
+                        <h3>Variable Harlequin Frog</h3>
+                    </div>
+                </li>
+                <li class="gridder-list" data-griddercontent="#content3">
+                    <div class="content-overlay"></div>
+                    <img src="images/endg-03.png"/>
+                    <div class="content-title">
+                        <h3>The Amazon Glass Frog</h3>
+                    </div>
+                </li>
+                <li class="gridder-list" data-griddercontent="#content4">
+                    <div class="content-overlay"></div>
+                    <img src="images/endg-04.jpg"/>
+                    <div class="content-title"><h3>Blue Poison Dart Frog</h3></div>
+                </li>
+                <li class="gridder-list" data-griddercontent="#content4">
+                    <div class="content-overlay"></div>
+                    <img src="images/endg-05.jpg"/>
+                    <div class="content-title"><h3>Ctenophyrne carpish</h3></div>
+                </li>
+                <li class="gridder-list" data-griddercontent="#content4">
+                    <div class="content-overlay"></div>
+                    <img src="images/endg-06.jpg"/>
+                    <div class="content-title"><h3>Spiny-headed Tree Frog</h3></div>
+                </li>
+            </ul>
+            
+            <!-- Gridder content -->
+            <div id="content1" class="gridder-content">
+                <h3 class="frog-name">Lemur Leaf Frog</h3>
+                <p class="description">The lemur leaf frog (Agalychnis lemur) once found in abundance has all but vanished from Costa Rica. The species has
+                lost over 80% of its population in Panama during the past 10 years. Like many endangered frogs, an infectious fungal
+                disease called chytridiomycosis has led to the decline. The fungus has infected amphibians in many parts of the globe,
+                including North and South America, the Caribbean, and Australia.</p>
+            </div>
+            <div id="content2" class="gridder-content">
+                <h3 class="frog-name">Variable Harlequin Frog</h3>
+                <p class="description">Once believed to be extinct, the variable harlequin frog (Atelopus varius) only survives in one small area of Costa Rica
+                under threat from a landslide. The range of this frog once stretched across Costa Rica to Panama. The exact reasons for
+                this species’ decline are unknown, but habitat loss and chytridiomycosis present two possible theories. These frogs are
+                found along streams and are active during the day.</p>
+            </div>
+            <div id="content3" class="gridder-content">
+                <h3 class="frog-name">The Amazon Glass Frog</h3>
+                <p class="description">Glass frogs live in and among the trees and plants of humid mountain forests in Central and South America. Higher up the
+                mountain the rainforests are called cloud forests because the trees are almost always covered in clouds. Glass frogs are
+                mostly active at night, which makes them very difficult to spot for predators.</p>
+            </div>
+            <div id="content4" class="gridder-content">
+                <h3 class="frog-name">Blue Poison Dart Frog</h3>
+                <p class="description">The blue poison dart frog or blue poison arrow frog (Dendrobates tinctorius "azureus") is a poison dart frog found in
+                the forests surrounded by the Sipaliwini Savanna, which is located in southern Suriname and adjacent far northern
+                Brazil. D. tinctorius azureus is also known by its indigenous Tirio name, okopipi. These frogs spend most of their awake
+                time, during the day, hopping around in short leaps. Although poison dart frogs are known for their skin toxins, used on
+                the tips of arrows or darts of natives, in reality only the species of the genus Phyllobates are used in this manner. In
+                captivity, the frogs lose toxicity as a result of altered diets.</p>
+            </div>
+            <div id="content4" class="gridder-content">
+                <h3 class="frog-name">Ctenophyrne carpish</h3>
+                <p class="description">The Ctenophryne carpish was a rare species discovered in 2002.  They are endemic to Peru and holds a status of endangered.  The Ctenophryne carpish lives in cloud forest environments where there is more moisture in the air.  They use bromeliads as breeding grounds and their diets consist of arthropods.  Their decline in population is likely due to habitat destruction and agricultural expansion.</p>
+            </div>
+            <div id="content4" class="gridder-content">
+                <h3 class="frog-name">Spiny-headed Tree Frog</h3>
+                <p class="description">The spiny-headed tree frog is on the larger side (5.8 to 8cm).  It has spine-like projections protruding along it’s back.  The spiny-headed tree frog sets itself apart from others with its unique male call. The male individuals of the species have a call that sounds similar to “boop...boop...boop”.  They can be found in lowland rainforests and high elevation humid forests.  The spiny-headed tree frog is threatened by habitat disturbances such as deforestation. </p>
+            </div>
+        </section>
+    </main>
+    <footer class="ftr">
+        <p>Michelle Cheung's Fictional Frog Charity &copy; 2021</p>
+    </footer>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src="scripts/jquery.gridder.min.js"></script>
+
+    <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
+    <script src="scripts/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="scripts/scroll-lock.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
